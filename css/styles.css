@@ -211,6 +211,9 @@ a:hover {
   text-decoration: none;
 }
 
+.underscore {
+  text-decoration: underline;
+}
 
 .problem-solving {
   width: 25%;
@@ -224,10 +227,13 @@ a:hover {
 }
 
 .profile-img {
-  padding-top: 10%;
+  padding-top: 7%;
   width: 25%;
 }
 
+.inl-block {
+  display: inline-block;
+}
 
 @media (max-width: 700px) {
   .profile-img {
@@ -252,7 +258,7 @@ a:hover {
 }
 
 .skills {
-    padding: 5% 15%;
+    padding: 5% 10%;
   }
 
 .section_title {
@@ -276,6 +282,10 @@ a:hover {
   text-align: left;
 }
 
+.python-description {
+  display: inline-block;
+}
+
 .w_right {
   text-align: right;
 }
@@ -292,6 +302,10 @@ a:hover {
   /* display: inline-block; */
 }
 
+.portfolio-icon {
+  width: 4%;
+}
+
 /* .footer-link {
   display: inline-block;
 } */
@@ -301,4 +315,8 @@ a:hover {
   padding-bottom: 2%;
   margin-bottom: 5%;
   background-color: #FFFBEB;
+}
+
+.including-button {
+  display: inline-block;
 }
