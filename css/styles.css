@@ -243,9 +243,6 @@ a:hover {
   .prifile {
     width: 90%;
   }
-  .middle-container {
-    padding: 0;
-  }
 }
 
 @media (max-width: 1000px) {
@@ -258,6 +255,9 @@ a:hover {
     margin: 0;
     padding-left: 5%;
     padding-right: 5%;
+  }
+  .middle-container {
+    padding: 0;
   }
   }
 
