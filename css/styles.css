@@ -197,6 +197,10 @@ a:hover {
 
 /* skills */
 
+.skills {
+  padding-top: 5%;
+}
+
 .underscore {
   text-decoration: underline;
 }
