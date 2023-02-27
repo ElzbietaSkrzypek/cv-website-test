@@ -12,6 +12,8 @@ hr {
   border-bottom: none;
   width: 4%;
   display:inline-block;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 h1 {
@@ -58,11 +60,6 @@ a:hover {
   color: #40514E;
 }
 
-
-.section_title {
-  padding-bottom: 5%;
-  padding-top: 10%;
-}
 
 /* button */
 .btn {
