@@ -58,51 +58,38 @@ a:hover {
   color: #40514E;
 }
 
-.bottom-container {
-  width: 100%;
-  text-align: center;
-  background-color: #66BFBF;
-  padding: 2%;
-  font-family: 'Montserrat', sans-serif;
-  position: absolute;
+
+.section_title {
+  padding-bottom: 5%;
+  padding-top: 10%;
+}
+
+/* button */
+.btn {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 16px;
+  background: #de607f;
+  padding: 6px 15px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f5dea9;
+  text-decoration: none;
 }
 
 
-.contact-me {
+/* TOP CONTAINER */
+
+.top-container {
   width: 100%;
+  padding-bottom: 2%;
   margin-bottom: 5%;
-  /* background-color: #FFFBEB; */
-}
-
-.contact-row {
-  text-align: left;
-  margin: 0;
-  padding-left: 20%;
-}
-
-.dna-tree {
-  max-width: 100%;
-}
-
-
-.education {
-  padding: 5% 15%;
-  align-items: center;
-}
-
-.courses {
-  padding: 5% 15%;
-  align-items: center;
-}
-
-.graduation {
-  width: 60%;
-  /* align-items: right; */
-}
-
-
-.middle-container {
-  padding: 5% 15%;
+  background-color: #FFFBEB;
 }
 
 .navbar-brand {
@@ -120,9 +107,6 @@ a:hover {
   z-index: 1;
 }
 
-
-
-
 .navbar a {
   float: left;
   display: block;
@@ -138,13 +122,38 @@ a:hover {
   text-decoration-color: black;
 }
 
-/* .nav-items{
-  align: right;
-} */
+.prifile {
+  padding: 5%, 10%;
+  width: 60%;
+}
 
-.owner {
-  margin-bottom: 0;
-  color: #EAF6F6;
+.profile-img {
+  padding-top: 6%;
+  width: 25%;
+}
+
+.inl-block {
+  display: inline-block;
+}
+
+/* MIDDLE CONTAINER */
+
+.middle-container {
+  padding: 5% 15%;
+}
+
+.education {
+  padding: 5% 15%;
+  align-items: center;
+}
+
+.courses {
+  padding: 5% 15%;
+  align-items: center;
+}
+
+.graduation {
+  width: 60%;
 }
 
 /* work experience  */
@@ -166,22 +175,9 @@ a:hover {
   border-radius: 100%;
 }
 
-.euro_tutoring {
+.euro_tutoring,  .pure-internship, .pure-assistant, {
   padding: 1%;
   display: inline-block;
-
-}
-
-.pure-internship {
-  padding: 1%;
-  display: inline-block;
-
-}
-
-.pure-assistant {
-  padding: 1%;
-  display: inline-block;
-
 }
 
 .pure-junior {
@@ -190,29 +186,12 @@ a:hover {
   position: relative;
 }
 
-
 .responsibilities {
   font-size: 0.8rem;
   background-color: #FEFCF3;
 }
 
-/* button */
-.btn {
-  -webkit-border-radius: 4;
-  -moz-border-radius: 4;
-  border-radius: 4px;
-  font-family: Courier New;
-  color: #ffffff;
-  font-size: 16px;
-  background: #de607f;
-  padding: 6px 15px 10px 20px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #f5dea9;
-  text-decoration: none;
-}
+/* skills */
 
 .underscore {
   text-decoration: underline;
@@ -224,62 +203,18 @@ a:hover {
   margin-left: 30%;
 }
 
-.prifile {
-  padding: 5%, 10%;
-  width: 60%;
+.portfolio-icon {
+  width: 4%;
 }
 
-.profile-img {
-  padding-top: 6%;
-  width: 25%;
-}
-
-.inl-block {
+.including-button {
   display: inline-block;
 }
-
-
-@media (max-width: 1000px) {
-  .profile-img {
-    width: 40%;
-  }
-  .dna-tree {
-    width: 75%;
-    padding-left: 25%;
-  }
-  .contact-row {
-    text-align: left;
-    margin: 0;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  .middle-container {
-    padding: 5%;
-  }
-  .navbar-toggler-icon, .navbar-collapse, .navbar-brand, h2{
-    font-size: xxx-large;
-  }
-  h3, h4 {
-    font-size: xx-large;
-  }
-  .top-container {
-    padding-top: 13%;
-  }
-  h5, h6, p, a, .form-control, .btn {
-    font-size: x-large;
-  }
-  }
 
 .skill-row {
   display: inline-block;
   line-height: 2;
   padding: 2%
-}
-
-
-.section_title {
-  padding-bottom: 5%;
-  padding-top: 10%;
 }
 
 .left {
@@ -313,26 +248,70 @@ a:hover {
   display: inline-block;
 }
 
+
 .footer-icon {
   width: 2%;
-  /* display: inline-block; */
 }
 
-.portfolio-icon {
-  width: 4%;
-}
-
-/* .footer-link {
-  display: inline-block;
-} */
-
-.top-container {
+.contact-me {
   width: 100%;
-  padding-bottom: 2%;
   margin-bottom: 5%;
-  background-color: #FFFBEB;
 }
 
-.including-button {
-  display: inline-block;
+.contact-row {
+  text-align: left;
+  margin: 0;
+  padding-left: 20%;
 }
+
+.dna-tree {
+  max-width: 100%;
+}
+
+/*  BOTTOM CONTAINER */
+
+.bottom-container {
+  width: 100%;
+  text-align: center;
+  background-color: #66BFBF;
+  padding: 2%;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+}
+
+.owner {
+  margin-bottom: 0;
+  color: #EAF6F6;
+}
+
+
+@media (max-width: 1000px) {
+  .profile-img {
+    width: 40%;
+  }
+  .dna-tree {
+    width: 75%;
+    padding-left: 25%;
+  }
+  .contact-row {
+    text-align: left;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .middle-container {
+    padding: 5%;
+  }
+  .navbar-toggler-icon, .navbar-collapse, .navbar-brand, h2{
+    font-size: xxx-large;
+  }
+  h3, h4 {
+    font-size: xx-large;
+  }
+  .top-container {
+    padding-top: 13%;
+  }
+  h5, h6, p, a, .form-control, .btn {
+    font-size: x-large;
+  }
+  }
