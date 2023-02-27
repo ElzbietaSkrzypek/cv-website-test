@@ -120,6 +120,9 @@ a:hover {
   z-index: 1;
 }
 
+
+
+
 .navbar a {
   float: left;
   display: block;
@@ -127,7 +130,7 @@ a:hover {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1,5rem;
 }
 
 .navbar a:hover {
@@ -222,12 +225,12 @@ a:hover {
 }
 
 .prifile {
-  padding-top: 10%;
-  width: 60%
+  padding: 5%, 10%;
+  width: 60%;
 }
 
 .profile-img {
-  padding-top: 7%;
+  padding-top: 6%;
   width: 25%;
 }
 
@@ -239,9 +242,6 @@ a:hover {
   .profile-img {
     padding-top: 30%;
     width: 50%;
-  }
-  .prifile {
-    width: 90%;
   }
 }
 
@@ -257,7 +257,19 @@ a:hover {
     padding-right: 5%;
   }
   .middle-container {
-    padding: 0;
+    padding: 5%;
+  }
+  .navbar-toggler-icon {
+    font-size: xx-large;
+  }
+  .navbar-collapse {
+    font-size: xx-large;
+  }
+  .navbar-brand {
+    font-size: xx-large;
+  }
+  .top-container {
+    padding: 5%;
   }
   }
 
@@ -267,9 +279,6 @@ a:hover {
   padding: 2%
 }
 
-.skills {
-    padding: 5% 10%;
-  }
 
 .section_title {
   padding-bottom: 5%;
