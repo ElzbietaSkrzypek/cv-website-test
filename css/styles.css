@@ -271,6 +271,15 @@ a:hover {
   .top-container {
     padding: 5%;
   }
+   h2 {
+    font-size: xxx-large;
+  }
+  h3, h4 {
+    font-size: xx-large;
+  }
+  h5, h6, p, a {
+    font-size: x-large;
+  }
   }
 
 .skill-row {
