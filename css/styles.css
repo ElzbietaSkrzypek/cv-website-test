@@ -92,6 +92,7 @@ a:hover {
   background-color: #FFFBEB;
 }
 
+
 .navbar-brand {
   font-family: "Ubuntu";
 }
@@ -243,12 +244,39 @@ a:hover {
 
 .python-description {
   display: inline-block;
+  top: 5%;
 }
 
 .w_right {
   text-align: right;
 }
 
+/* testimonials */
+
+.carousel-caption {
+  top: 7%;
+  overflow: auto;
+}
+
+.testimonial-image {
+  width: 30%
+}
+
+.carousel {
+  padding: 0% 10%;
+}
+
+.A {
+  padding: 5% 10% 0% 10%;
+}
+
+.M {
+  padding-top: 5%;
+}
+
+p.A {
+  font-size: 1.3rem;
+}
 
 /* contact form */
 .name {
@@ -320,6 +348,15 @@ a:hover {
     padding-top: 13%;
   }
   h5, h6, p, a, .form-control, .btn {
+    font-size: x-large;
+  }
+  .carousel {
+    padding: 0%;
+  }
+  .A {
+    padding: 5% 0 0 0;
+  }
+  p.A {
     font-size: x-large;
   }
   }
