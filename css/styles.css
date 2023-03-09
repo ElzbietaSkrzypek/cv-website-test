@@ -277,6 +277,9 @@ a:hover {
 p.A {
   font-size: 1.3rem;
 }
+.carousel-indicators {
+    z-index: 0;
+}
 
 /* contact form */
 .name {
