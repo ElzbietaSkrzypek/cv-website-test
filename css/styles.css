@@ -362,4 +362,10 @@ p.A {
   p.A {
     font-size: x-large;
   }
+  .name {
+    width: 100%;
+  }
+  .email {
+    width: 100%;
+  } 
   }
