@@ -1,3 +1,3 @@
 # personal-site
 
-Lounch the link on the right site to see my personal site
+Lounch the link https://elzbietaskrzypek.github.io/personal-site/ to see my personal site
